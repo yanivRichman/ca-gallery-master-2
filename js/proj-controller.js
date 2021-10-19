@@ -35,7 +35,7 @@ function renderModal(projId) {
     console.log(proj);
     var strHtml = `
     <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content bg-info">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
         <div class="rl"></div>
@@ -47,9 +47,9 @@ function renderModal(projId) {
           <div class="modal-body">
             <!-- Project Details Go Here -->
             <h2>${proj.name}</h2>
-            <p class="item-intro text-muted">
+            <h6 class="item-intro text-dark">
               ${proj.title}
-            </p>
+            </h6>
             <img
               class="img-fluid d-block mx-auto"
               src="${proj.img}"
