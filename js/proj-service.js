@@ -22,7 +22,7 @@ const gProjs = [
         labels: ['Matrixes', 'keyboard events'],
     },
     {
-        id: '‏‏touchNums',
+        id: 'touchNums',
         name: 'Touch the Numbers',
         title: 'Touch the Numbers is a multi-player measure time game.',
         desc: 'The objective of the game is to finish quik touching all the numbers',
@@ -52,7 +52,7 @@ const gProjs = [
         labels: ['Matrixes', 'keyboard events'],
     },
     {
-        id: '‏‏ballBoard',
+        id: 'ballBoard',
         name: 'Ball board',
         title: 'Ball board is a single-player measure ball game.',
         desc: 'The objective of the game is to collet all the balls in the board',
@@ -61,6 +61,36 @@ const gProjs = [
         publishedAt: '27/09/21',
         labels: ['Matrixes', 'keyboard events'],
     },
+    {
+        id: 'Chess',
+        name: 'Chess',
+        title: 'Chess is a board game played between two players.',
+        desc: 'The object of the game is to checkmate the opponent\'s king, whereby the king is under immediate attack (in "check") and there is no way for it to escape.',
+        img: './img/portfolio/chess.jpg',
+        url: 'https://yanivrichman.github.io/chess/',
+        publishedAt: '27/09/21',
+        labels: ['Matrixes', 'keyboard events'],
+    },
+    {
+        id: 'Todos',
+        name: 'Todos',
+        title: 'Todos is a .',
+        desc: 'The objective of ',
+        img: './img/portfolio/todos.jpg',
+        url: 'https://yanivrichman.github.io/proj-todos/',
+        publishedAt: '12/10/21',
+        labels: ['Matrixes', 'keyboard events'],
+    },
+    {
+        id: 'bookShop',
+        name: 'Book shop',
+        title: 'Todos is a',
+        desc: 'The objective of',
+        img: './img/portfolio/bookShop.jpg',
+        url: 'https://yanivrichman.github.io/Book-Shop/',
+        publishedAt: '27/09/21',
+        labels: ['Matrixes', 'keyboard events'],
+    }
 ];
 
 function getProjs() {
