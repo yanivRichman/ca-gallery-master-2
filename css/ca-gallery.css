@@ -25,12 +25,13 @@ h6 {
     text-transform: uppercase;
 }
 section {
-    padding: 100px 0;
+    padding: 10px 0;
 }
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    color: black;
 }
 section h3.section-subheading {
     font-size: 16px;
@@ -42,7 +43,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0;
+        padding: 15px 0;
     }
 }
 ::-moz-selection {
@@ -84,7 +85,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: lightyellow;
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -134,8 +135,8 @@ body {
     text-transform: uppercase;
 }
 #mainNav .navbar-brand {
-    color: #fed136;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    color: #white;
+    font-family:  'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #mainNav .navbar-brand.active,
 #mainNav .navbar-brand:active,
@@ -242,6 +243,7 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: black;
 }
 
 #portfolio .portfolio-item {
@@ -570,12 +572,16 @@ header.masthead .intro-text .intro-heading {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    color: black;
 }
 .team-member p {
     margin-top: 0;
 }
 .about-description {
     max-width: 80%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 @media (max-width: 800px) {
     .about-description {
