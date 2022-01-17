@@ -90,6 +90,36 @@ const gProjs = [
         url: 'https://yanivrichman.github.io/Book-Shop/',
         publishedAt: '13/10/21',
         labels: ['Matrixes', 'keyboard events'],
+    },
+    {
+        id: 'blogin',
+        name: 'Blogin',
+        title: 'Blogin is a perfect pixel site.',
+        desc: 'Blogin is a responsive, pixel perfect web page, with pure CSS.',
+        img: './img/portfolio/blogin.jpg',
+        url: 'https://yanivrichman.github.io/Blogin/',
+        publishedAt: '24/10/21',
+        labels: ['Matrixes', 'keyboard events'],
+    },
+    {
+        id: 'bloginGrid',
+        name: 'Blogin Grid',
+        title: 'Blogin Grid is a perfect pixel Grid site',
+        desc: 'Blogin is a responsive, pixel perfect web page, with pure CSS and using Grid.',
+        img: './img/portfolio/bloginGrid.jpg',
+        url: 'https://yanivrichman.github.io/Blogin-grid-ex/',
+        publishedAt: '25/10/21',
+        labels: ['Matrixes', 'keyboard events'],
+    },
+    {
+        id: 'memeGen',
+        name: 'Meme Generator',
+        title: 'Meme Generator is a free online image maker that lets you add funny templates',
+        desc: 'Meme Generator is an idea, behavior, or style that is spread via the Internet, often through social media platforms and especially for humorous purposes.',
+        img: './img/portfolio/memeGen.jpg',
+        url: 'https://yanivrichman.github.io/meme-gen/',
+        publishedAt: '13/10/21',
+        labels: ['Matrixes', 'keyboard events'],
     }
 ];
 

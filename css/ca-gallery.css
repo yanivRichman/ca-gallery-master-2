@@ -135,7 +135,7 @@ body {
     text-transform: uppercase;
 }
 #mainNav .navbar-brand {
-    color: #white;
+    color: white;
     font-family:  'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #mainNav .navbar-brand.active,
